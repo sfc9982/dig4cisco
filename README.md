@@ -8,3 +8,11 @@ A dig command for Cisco IOS
 3. `configure terminal` `alias exec dig tclsh flash:<FILENAME>`
 4. Now the alias is binded in exec mode, if you want to bind more, use `alias configure dig tclsh flash:<FILENAME>` `alias interface dig tclsh flash:<FILENAME>`
 5. Use `dig 8.8.8.8` and `dig dns.google` now and see the result!
+
+## Requirement
+
+- Cisco IOS 12.4 +
+- Access to flash or other storage
+
+## Release
+[Download](https://raw.githubusercontent.com/sfc9982/dig4cisco/main/dig.tcl)
